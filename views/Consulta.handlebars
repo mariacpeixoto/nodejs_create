@@ -59,10 +59,8 @@
                 {{observacao}}
               </td>
               <td scope="col">
-                <button type="button" class="btn btn-outline-primary" onclick="location.href='editar.handlebar'"
-                  style="width: 72px;">Editar</button>
-                <button type="button" class="btn btn-outline-primary"
-                  onclick="javascript:confirmDelete('excluir.handlebars')" style="width: 72px;">Excluir</button>
+                <button type="button" class="btn btn-outline-primary" style="width: 72px;"><a href="/editar/{{id}}">Editar</a></button>
+                <button type="button" class="btn btn-outline-primary" style="width: 72px;"><a href="/excluir/{{id}}">Excluir</a></button>
               </td>
             </tr>
           </tbody>
